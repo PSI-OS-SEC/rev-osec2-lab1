@@ -21,12 +21,12 @@ grep adm01 /etc/passwd
 grep adm02 /etc/passwd
 echo ""
 
-echo "Ejercicio 3"
+echo "Ejercicio 3 - Max Days - Min Days"
 echo "Info de passwords"
 chage -l web01
 echo ""
 
-echo "Ejercicio 4 - No shell"
+echo "Ejercicio 4 - No shell "
 grep web01 /etc/passwd
 grep web02 /etc/passwd
 echo ""
@@ -34,8 +34,6 @@ echo ""
 echo "Ejercicio 5 - Shell sh"
 grep ops01 /etc/passwd
 grep ops02 /etc/passwd
-chage -l ops01
-chage -l ops02
 echo ""
 
 echo "Ejercicio 6 - User locked"
