@@ -6,7 +6,7 @@ CONFIG_FILE=config-parte1
 
 source ${CONFIG_FILE}
 
-echo "Clone y ejecute este script desde SISTEMA 1 - RHEL"
+echo "Clone y ejecute este script desde SISTEMA 2 - RHEL"
 
 function grade() {
  COMMAND=$1
@@ -21,11 +21,11 @@ function grade() {
 
 
 
-echo "Validar acceso a Web Server - SISTEMA 2 - Ubuntu "
+echo "Validar acceso a Web Server - SISTEMA 1 - Ubuntu "
 
 grade "curl $OPTS http://${UBUNTU}"
 
-echo "Validar acceso a Web Server - SISTEMA 1 - Red Hat "
+echo "Validar acceso a Web Server - SISTEMA 2 - Red Hat "
 
 grade "curl $OPTS http://${RHEL}"
 
