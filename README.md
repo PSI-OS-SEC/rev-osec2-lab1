@@ -21,5 +21,16 @@ UBUNTU=""
 RHEL=""
 ```
 
-5. Espera instrucciones de su catedrático.
+5. Parte #1
 
+```
+chmod u+x parte1.sh
+./parte1.sh
+```
+
+6. Parte #2
+
+```
+chmod u+x parte2.sh
+./parte2.sh
+```
